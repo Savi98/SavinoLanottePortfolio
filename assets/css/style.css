@@ -1,0 +1,11 @@
+.navbar-text {
+  position: fixed;
+  margin-left: 70px;
+  font-size: 20px;
+}
+
+.terminal-1 p {
+  color: white;
+  font-size: 20px;
+  margin-left: 20px;
+}
