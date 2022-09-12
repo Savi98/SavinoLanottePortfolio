@@ -1,4 +1,69 @@
 * {
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+
+.hamburger-menu {
+  height: 50px;
+
+}
+
+.sidebar {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  width: 200px;
+  background-color: grey;
+  position: absolute;
+}
+
+.top-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-height: 100px;
+  position: absolute;
+}
+
+.sidebar #myLinks {
+  display: none;
+}
+
+#myLinks {
+
+}
+
+#myLinks a {
+  padding: 50px;
+}
+
+.sidebar a {
+  color: black;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.sidebar a.icon {
+
+  display: block;
+  position: relative;
+}
+
+.sidebar a:hover {
+  color: black;
+}
+
+.middle-section {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  position: relative;
+  justify-content: center;
 }

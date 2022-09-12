@@ -1,31 +1,35 @@
 <!doctype html>
 <html>
   <head>
-
-    <!-- Per mostrare correttamente una pagina HTML, con particolare riferimento
-    alle lettere accentate, il browser deve conoscere la codifica dei caratteri
-    o "charset" da essa adottata. -->
     <meta charset="utf-8">
-
-    <!--
-    In questo modo sto dicendo al browser di usare come area di visualizzazioni
-    (viewport) le dimensioni del display del dispositivo mobile (width=device-width),
-    senza adattarlo al contenuto da visualizzare.
-
-    Per impostare automaticamente uno zoom a scala 1.0 rispetto alla pagina da
-    visualizzare aggiungo anche l'attributo initial-scale
-   -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Savino Lanotte</title>
 
     <link rel="stylesheet" href="assets\css\style.css">
     <link rel="icon" type="image/x-icon" href="assets\img\favicon\favicon.jpg">
+
   </head>
 
   <body>
 
-    
+    <nav class="sidebar">
+
+      <div class="top-section">
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <img class="hamburger-menu" src="assets\img\icon\hamburger-menu.svg">
+        </a>
+      </div>
+
+      <div class="middle-section">
+        <div id="myLinks">
+          <a href="#news">News</a>
+          <a href="#contact">Contact</a>
+          <a href="#about">About</a>
+        </div>
+      </div>
+
+    </nav>
 
     <script src="assets\js\index.js"></script>
   </body>
