@@ -26,7 +26,6 @@ body {
   align-items: center;
   position: absolute;
   justify-content: center;
-  background-color: blue;
 }
 
 #sidebar-1 {
@@ -42,7 +41,6 @@ body {
   align-items: center;
   position: relative;
   justify-content: center;
-  color: blue;
   font-size: 30px;
   text-align: center;
   padding-left: 50px;
@@ -53,7 +51,7 @@ body {
   display: flex;
   align-items: center;
   width: 50%;
-  background-color: grey;
+  background-color: lightgray;
   position: absolute;
   padding: 50px;
 }
@@ -87,12 +85,16 @@ body {
 }
 
 .background-right {
-  width: 50%;
   position: fixed;
-  margin-left: 50%;
-  border: solid;
+  margin-left: 60%;
+  margin-top: 4%;
 }
 
 .img-background {
-  width: 100%;
+  width: 90%;
+  height: 90%;
+  object-fit: contain;
+  position: absolute;
+  background-color: lightgray;
+  border-radius: 50%;
 }
