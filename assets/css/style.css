@@ -24,7 +24,6 @@
 #sidebar-1 {
   align-items: center;
   width: 50%;
-  border: solid;
 }
 
 #sidebar {
@@ -111,16 +110,47 @@
 
 #jobs {
   border: solid;
-  font-size: 30px;
-  text-align: center;
-  padding-left: 50px;
-  padding-right: 50px;
-  padding-top: 20px;
   line-height: 1.5em;
-  letter-spacing: -.02em;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
   white-space: pre-wrap;
+  position: relative;
+    align-items: center;
+}
+
+.title-jobs{
+  width: 250px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  font-size: 30px;
+}
+
+.title-jobs .caret-forward {
+  width: 80px;
+}
+
+.title-jobs h4 {
+
+}
+
+.section-job {
+  position: relative;
+  display: flex;
+}
+
+.jobs-1, .jobs-2 {
+  width: 300px;
+  display: inline-block;
+  flex: 1;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
+.jobs-1 .img-jobs-1, .jobs-2 .img-jobs-1 {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 
 #contact {
@@ -135,4 +165,22 @@
   letter-spacing: -.02em;
   margin-block-start: 1em;
   margin-block-end: 1em;
+  white-space: pre-wrap;
+  position: relative;
+}
+
+.title-contact{
+  width: 250px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+}
+
+.title-contact .caret-forward {
+  width: 80px;
+}
+
+.title-contact h4 {
+
 }
