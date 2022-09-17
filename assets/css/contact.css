@@ -1,0 +1,31 @@
+#contact {
+  border: solid;
+  margin-top: 20px;
+  font-size: 30px;
+  text-align: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 20px;
+  line-height: 1.5em;
+  letter-spacing: -.02em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  white-space: pre-wrap;
+  position: relative;
+}
+
+.title-contact{
+  width: 250px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  position: absolute;
+}
+
+.title-contact .caret-forward {
+  width: 80px;
+}
+
+.title-contact h4 {
+
+}

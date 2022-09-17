@@ -1,0 +1,49 @@
+#jobs {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-color: #02aab0;
+  background-image: linear-gradient(135deg,#02aab0,#00cdac);
+}
+
+.title-jobs{
+  width: 100%;
+  height: 100px;
+  position: relative;
+}
+
+.title-jobs h2 {
+  font-size: 50px;
+  color: white;
+  text-align: center;
+}
+
+.section-job {
+  position: relative;
+  display: flex;
+}
+
+.jobs-1, .jobs-2 {
+  display: inline-block;
+  flex: 1;
+  padding-left: 40px;
+  padding-bottom: 40px;
+  margin: 20px 20px 0px 20px;
+  border: solid;
+  border-radius: 20px;
+}
+
+.jobs-3, .jobs-4 {
+  display: inline-block;
+  flex: 1;
+  padding-left: 40px;
+  padding-bottom: 40px;
+  margin: 20px 20px 0px 20px;
+  border: solid;
+  border-radius: 20px;
+}
+
+.jobs-1 .img-jobs-1, .jobs-2 .img-jobs-1 {
+  width: 50%;
+  object-fit: cover;
+}
