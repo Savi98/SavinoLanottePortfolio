@@ -32,7 +32,7 @@
 .description h1{
   text-align: center;
   line-height: 1.2em;
-  font-size: 60px;
+  font-size: 50px;
   font-weight: bold;
 }
 
@@ -48,9 +48,11 @@
 }
 
 #sidebar-1 {
-  align-items: center;
   width: 50%;
+  height: 100vh;
+  align-items: center;
   position: relative;
+  display: inline-block;
 }
 
 #sidebar {
@@ -94,16 +96,17 @@
 }
 
 .background-right {
-  width: 50%;
-  position: absolute;
-  margin-left: 50%;
-  padding: 50px 50px 50px 50px;
+  max-width: 50%;
+  position: relative;
+  float: right;
+  display: flex;
+  align-items: center;
 }
 
-.img-background {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-  background-image: url(../img/backgroundpattern.jpg);
-  border-radius: 50%;
+@media (max-width: 725px) {
+  .img-responsive {
+    width: 100%;
+    height: 100vh;
+    object-fit: contain;
+  }
 }
