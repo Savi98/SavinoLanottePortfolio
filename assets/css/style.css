@@ -6,7 +6,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Didot;
 }
 
 .menu {
@@ -55,7 +54,7 @@
 }
 
 #sidebar {
-  width: 20%;
+  width: 30%;
   background-color: #02aab0;
   background-image: linear-gradient(135deg,#02aab0,#00cdac);
   position: fixed;
