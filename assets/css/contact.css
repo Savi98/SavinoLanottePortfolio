@@ -1,18 +1,7 @@
 #contact {
   position: relative;
   width: 100%;
-}
-
-.title-contact{
-  width: 100%;
-  position: relative;
-  align-items: center;
-  display: flex;
-  justify-content: center;
-}
-
-.title-contact h2 {
-  font-size: 50px;
+  margin-bottom: 20px;
 }
 
 .container-form {
@@ -24,4 +13,9 @@
 
 .row {
   margin-right: 10%;
+}
+
+#contact p {
+  font-size: 50px;
+  margin-bottom: 20px;
 }
