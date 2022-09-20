@@ -4,11 +4,15 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
-    rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
-    crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
     <link rel="stylesheet" href="assets\css\style.css">
+    <link rel="stylesheet" href="assets\css\skills.css">
     <link rel="stylesheet" href="assets\css\jobs.css">
     <link rel="stylesheet" href="assets\css\contact.css">
     <link rel="stylesheet" href="assets\css\footer.css">
@@ -23,7 +27,7 @@
 
     <div class="menu">
       <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-        <img class="hamburger-menu" src="assets\img\icon\hamburger-menu.svg">
+        <img class="hamburger-menu" src="assets\img\menu\hamburger-menu.svg">
       </a>
     </div>
 
@@ -47,44 +51,58 @@
     </div>
 
     <div class="background-right">
-       <img class="img-responsive"src="assets\img\me1.png">
+       <img class="img-responsive"src="assets\img\me.png">
     </div>
-
 
     <div id="jobs">
       <div class="title-jobs">
         <h2>MY JOBS</h2>
       </div>
-      <div class="row">
-        <div class="col-lg-4 col-sm-12">
-          <h3 class="">Title</h3>
-          <div>
-            <p class="mb-4">
-               Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Excepturi neque, ipsa animi maiores repellendus distinctio
-              aperiam earum dolor voluptatum consequatur blanditiis inventore
-              debitis fuga numquam voluptate ex architecto itaque molestiae.
-            </p>
+
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+          <div class="item active">
+            <img src="assets\img\download.svg" alt="Los Angeles">
+          </div>
+
+          <div class="item">
+            <img src="assets\img\progress-bar.png" alt="Chicago">
           </div>
         </div>
-        <div class="col-lg-8 col-sm-12">
-          <img src="assets\img\progress-bar.png" class="img-fluid">
-        </div>
+
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+          <span class="sr-only">Next</span>
+        </a>
       </div>
-      <div class="row">
-        <div class="col-lg-4 col-sm-12">
-          <h3 class="">Title</h3>
-          <div>
-            <p class="mb-4">
-               Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Excepturi neque, ipsa animi maiores repellendus distinctio
-              aperiam earum dolor voluptatum consequatur blanditiis inventore
-              debitis fuga numquam voluptate ex architecto itaque molestiae.
-            </p>
-          </div>
+
+    </div>
+
+    <div id="skills">
+      <div class="title-skills">
+        <h2>MY SKILLS</h2>
+      </div>
+      <div class="griglia">
+        <div class="html-griglia">
+          <img src="assets\img\skills\html.svg">
         </div>
-        <div class="col-lg-8 col-sm-12">
-          <img src="assets\img\progress-bar.png" class="img-fluid">
+        <div class="css-griglia">
+          <img src="assets\img\skills\css.svg">
+        </div>
+        <div class="bootstrap-griglia">
+          <img src="assets\img\skills\bootstrap.png" class="bootstrap-img">
         </div>
       </div>
     </div>
@@ -97,10 +115,6 @@
           <input type="email" class="form-control mb-4" placeholder="E-mail">
           <div class="form-group">
               <textarea class="form-control rounded-0" rows="3" placeholder="Message"></textarea>
-          </div>
-          <div class="custom-control custom-checkbox mb-4">
-              <input type="checkbox" class="custom-control-input">
-              <label class="custom-control-label" for="defaultContactFormCopy">Send me a copy of this message</label>
           </div>
           <button class="btn btn-info btn-block" type="submit">Send</button>
         </form>

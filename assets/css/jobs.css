@@ -16,15 +16,19 @@
 
 .title-jobs h2 {
   font-size: 50px;
-  color: white;
 }
 
-.img-fluid {
-  max-width: 100%;
-  max-height: 70%;
+.contenitore {
+  width: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
 }
 
-.row {
-  margin-left: 10%;
-  margin-bottom: 80px;
+.slides {
+  margin-bottom: 20px;
+}
+
+.slides img {
+  
 }
