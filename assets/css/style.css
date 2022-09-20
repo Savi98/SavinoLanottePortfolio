@@ -78,7 +78,7 @@
 }
 
 #sidebar {
-  width: 30%;
+  width: 40%;
   background-color: #02aab0;
   background-image: linear-gradient(to right, #00b4db, #0083b0);
   position: fixed;
@@ -91,15 +91,17 @@
 }
 
 #myLinks {
-  width: 50%;
+  height: 100%;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  padding: 10px;
+  justify-items: center;
+  align-items: center;
 }
 
 #myLinks a {
   color: black;
   font-size: 30px;
-  display: block;
-  padding: 100px;
-  text-align: left;
   font-weight: bold;
 }
 
@@ -109,12 +111,7 @@
 }
 
 #sidebar a:hover {
-  color: black;
-}
-
-.middle-section {
-  display: flex;
-  position: relative;
+  color: white;
 }
 
 .background-right {
@@ -129,6 +126,7 @@
   .background-right {
     max-width: 100%;
     float: none;
+    margin-bottom: 20px;
   }
 }
 

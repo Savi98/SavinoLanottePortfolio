@@ -18,17 +18,19 @@
   font-size: 50px;
 }
 
-.contenitore {
-  width: 100%;
-  align-items: center;
-  display: flex;
-  justify-content: center;
+.carousel-inner {
+  max-height: 300px !important;
 }
 
-.slides {
-  margin-bottom: 20px;
+.carousel-inner img {
+  max-width: 100%;
+  max-height: 300px !important;
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
-.slides img {
-  
+.carousel-control.left, .carousel-control.right {
+   background-image:none !important;
+   filter:none !important;
 }
