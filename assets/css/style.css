@@ -136,3 +136,9 @@
     width: -webkit-fill-available;
   }
 }
+
+@media (min-width: 726px) {
+  .background-right {
+    height: 100vh;
+  }
+}
