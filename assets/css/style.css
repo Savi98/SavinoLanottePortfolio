@@ -27,7 +27,6 @@
   width: 100%;
   height: 100vh;
   display: flex;
-  margin-left: 20px;
 }
 
 .description h1{
@@ -39,7 +38,15 @@
 
 @media (max-width: 725px) {
   .description h1 {
-      font-size: 30px;
+      font-size: 50px;
+
+  }
+}
+
+@media (max-width: 725px) {
+  .description {
+    width: 100%;
+          height: 50%;
   }
 }
 
@@ -60,6 +67,13 @@
   align-items: center;
   position: relative;
   display: inline-block;
+}
+
+@media (max-width: 725px) {
+  #sidebar-1 {
+      width: 100%;
+      height: auto;
+  }
 }
 
 #sidebar {
@@ -111,9 +125,14 @@
 }
 
 @media (max-width: 725px) {
+  .background-right {
+    max-width: 100%;
+    float: none;
+  }
+}
+
+@media (max-width: 725px) {
   .img-responsive {
-    width: 100%;
-    height: 100vh;
-    object-fit: contain;
+    width: -webkit-fill-available;
   }
 }
