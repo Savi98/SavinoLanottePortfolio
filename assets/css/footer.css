@@ -27,5 +27,8 @@
   text-decoration: none;
 }
 
-.email-footer h3 {
+.freccia-footer {
+  cursor: pointer;
+  background-color: inherit;
+  width: 80px;
 }
