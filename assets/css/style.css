@@ -26,7 +26,7 @@
   display: flex;
 }
 
-@media (max-width: 750px) {
+@media (max-width: 600px) {
   .section {
     display: block;
     position: relative;
@@ -43,13 +43,13 @@
   font-weight: bold;
 }
 
-@media (max-width: 750px) {
+@media (max-width: 600px) {
   .description h1 {
-      font-size: 15px;
+      font-size: 20px;
   }
 }
 
-@media (min-width: 751px) and (max-width: 999px) {
+@media (min-width: 601px) and (max-width: 999px) {
   .description h1 {
     font-size: 25px;
   }
@@ -64,7 +64,7 @@
   font-family: -webkit-body;
 }
 
-@media (max-width: 750px) {
+@media (max-width: 600px) {
   .description p {
       width: 100%;
       font-size: 10px;
@@ -72,17 +72,11 @@
   }
 }
 
-@media (min-width: 751px) and (max-width: 999px) {
+@media (min-width: 601px) and (max-width: 999px) {
   .description p {
     width: 100%;
     font-size: 20px;
     margin-left: 5px;
-  }
-}
-
-@media (max-width: 750px) {
-  .wp-block-spacer {
-      height: 12px !important;
   }
 }
 
@@ -107,16 +101,17 @@
   justify-content: center;
 }
 
-@media (max-width: 750px) {
+@media (max-width: 600px) {
   #sidebar-1 {
-      margin: auto;
       display: flex;
       justify-content: center;
       position: absolute;
+      align-items: end;
+      width: auto;
   }
 }
 
-@media (min-width: 751px) and (max-width: 999px) {
+@media (min-width: 601px) and (max-width: 999px) {
   #sidebar-1 {
     width: 50%;
     margin-bottom: 10px;
@@ -136,13 +131,13 @@
   display: none;
 }
 
-@media (max-width: 750px) {
+@media (max-width: 600px) {
   #sidebar {
     width: 40%;
   }
 }
 
-@media (min-width: 751px) and (max-width: 999px) {
+@media (min-width: 601px) and (max-width: 999px) {
   #sidebar {
     width: 30%;
   }
@@ -177,16 +172,17 @@
   display: inline-block;
 }
 
-@media (max-width: 750px) {
+@media (max-width: 600px) {
   .background-right {
       width: 40%;
       display: flex;
       margin: auto;
       margin-bottom: 10px;
+      margin-top: 10px;
   }
 }
 
-@media (min-width: 751px) and (max-width: 999px) {
+@media (min-width: 601px) and (max-width: 999px) {
   .background-right {
     width: 40%;
     margin-left: 10%;
@@ -212,13 +208,13 @@
   width: 80%;
 }
 
-@media (max-width: 750px) {
+@media (max-width: 600px) {
   .img-responsive {
-      width: 80%;
+      width: 100%;
   }
 }
 
-@media (min-width: 751px) and (max-width: 999px) {
+@media (min-width: 601px) and (max-width: 999px) {
   .img-responsive {
     width: 90%;
   }
