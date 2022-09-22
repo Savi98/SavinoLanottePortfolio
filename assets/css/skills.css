@@ -24,13 +24,25 @@
   align-items: center;
 }
 
-@media (max-width: 750px) {
+@media (max-width: 470px) {
+  .griglia {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (min-width: 471px) and (max-width: 750px) {
   .griglia {
     grid-template-columns: 1fr 1fr;
   }
 }
 
-@media (min-width: 751px) {
+@media (min-width: 751px) and (max-width: 980px) {
+  .griglia {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (min-width: 981px) {
   .griglia {
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
