@@ -40,18 +40,19 @@
 .description h1{
   line-height: 1.2em;
   font-size: 50px;
-  font-weight: bold;
+  font-weight: 800;
 }
 
 @media (max-width: 600px) {
   .description h1 {
-      font-size: 20px;
+      font-size: 25px;
   }
 }
 
 @media (min-width: 601px) and (max-width: 999px) {
   .description h1 {
-    font-size: 25px;
+    font-size: 33px;
+    margin-left: 12px;
   }
 }
 
@@ -86,12 +87,6 @@
   background-image: linear-gradient(to right, #00b4db, #0083b0);
   color: transparent;
 }
-
-.description .start2impact {
-  text-decoration: underline;
-  font-weight: bold;
-}
-
 
 #sidebar-1 {
   width: 70%;
@@ -174,7 +169,7 @@
 
 @media (max-width: 600px) {
   .background-right {
-      width: 40%;
+      width: 50%;
       display: flex;
       margin: auto;
       margin-bottom: 10px;
@@ -206,6 +201,7 @@
 
 .img-responsive {
   width: 80%;
+        border-radius: 50%;
 }
 
 @media (max-width: 600px) {
