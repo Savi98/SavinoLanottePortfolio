@@ -32,14 +32,15 @@
   margin-bottom: 20px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   .photo {
     display: none;
   }
 }
 
 .photo .img-responsive {
-  border-radius: 0;
+  width: 60%;
+  object-fit: contain;
 }
 
 
@@ -49,10 +50,10 @@
   display: flex;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
 .description-about {
-      width: 100%;
-      object-fit: cover;
+    width: 100%;
+    object-fit: cover;
   }
 }
 

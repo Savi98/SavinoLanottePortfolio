@@ -141,7 +141,7 @@
 #myLinks {
   height: 100%;
   display: grid;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
   padding: 10px;
   justify-items: center;
   align-items: center;
@@ -201,7 +201,6 @@
 
 .img-responsive {
   width: 80%;
-        border-radius: 50%;
 }
 
 @media (max-width: 600px) {
