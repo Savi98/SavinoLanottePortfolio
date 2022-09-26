@@ -5,8 +5,7 @@ function myFunction() {
   } else {
     x.style.display = "block";
   }
-}
-
+};
 
 $(document).ready(function()
 {
