@@ -27,10 +27,15 @@
   text-decoration: none;
 }
 
+#back_to_top {
+  pointer-events: none;
+}
+
 .arrow-footer {
   cursor: pointer;
   background-color: inherit;
   width: 6%;
+  pointer-events: all;
 }
 
 @media (max-width: 750px) {
