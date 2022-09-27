@@ -16,7 +16,7 @@
   font-size: 50px;
 }
 
-.griglia {
+.grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   padding: 10px;
@@ -25,30 +25,30 @@
 }
 
 @media (max-width: 470px) {
-  .griglia {
+  .grid {
     grid-template-columns: 1fr;
   }
 }
 
 @media (min-width: 471px) and (max-width: 750px) {
-  .griglia {
+  .grid {
     grid-template-columns: 1fr 1fr;
   }
 }
 
 @media (min-width: 751px) and (max-width: 980px) {
-  .griglia {
+  .grid {
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
 
 @media (min-width: 981px) {
-  .griglia {
+  .grid {
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 }
 
-.html-griglia, .css-griglia, .bootstrap-griglia{
+.html-grid, .css-grid, .bootstrap-grid, .git-grid{
   width: 200px;
   height: 200px;
   padding: 20px;

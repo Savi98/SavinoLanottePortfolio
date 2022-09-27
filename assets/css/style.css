@@ -16,8 +16,8 @@
 .hamburger-menu {
   width: 50px;
   height: 50px;
-  margin-top: 20px;
-  margin-left: 20px;
+  margin-top: 10px;
+  margin-left: 10px;
   z-index: 150;
   position: fixed;
 }
@@ -28,7 +28,9 @@
 }
 
 .description {
-    text-align: center;
+  text-align: center;
+  height: 50%;
+  position: absolute;
 }
 
 .description h1{
@@ -39,7 +41,7 @@
 
 @media (max-width: 600px) {
   .description h1 {
-      font-size: 25px;
+    font-size: 25px;
   }
 }
 
@@ -61,9 +63,9 @@
 
 @media (max-width: 600px) {
   .description p {
-      width: 100%;
-      font-size: 10px;
-      margin-left: 3px;
+    width: 100%;
+    font-size: 10px;
+    margin-left: 3px;
   }
 }
 
@@ -82,10 +84,33 @@
   color: transparent;
 }
 
-#sidebar-1 {
+#background-bottom {
   height: 50%;
   position: absolute;
   top: auto;
+}
+
+.container-arrow {
+  height: 50%;
+  position: absolute;
+  top: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.arrow {
+  height: 100px;
+  width: 100px;
+  border-style: solid;
+  border-width: 0px 4px 4px 0px;
+  transform: rotate(45deg);
+  transition: border-width 150ms ease-in-out;
+  border-color: linear-gradient(to right, #00b4db, #0083b0);
+}
+
+.arrow:hover {
+  border-bottom-width: 8px;
+  border-right-width: 8px;
 }
 
 #sidebar {
@@ -126,6 +151,12 @@
   color: black;
   font-size: 30px;
   font-weight: bold;
+}
+
+@media (max-width: 800px) {
+  #myLinks a {
+    font-size: 22px;
+  }
 }
 
 #sidebar a.icon {

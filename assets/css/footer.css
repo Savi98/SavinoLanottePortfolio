@@ -27,8 +27,14 @@
   text-decoration: none;
 }
 
-.freccia-footer {
+.arrow-footer {
   cursor: pointer;
   background-color: inherit;
-  width: 10%;
+  width: 6%;
+}
+
+@media (max-width: 750px) {
+  .arrow-footer {
+    width: 15%;
+  }
 }
